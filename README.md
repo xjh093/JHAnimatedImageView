@@ -3,7 +3,7 @@ A subclass of UIImageView for animation with High Performance
 
 ---
 
-# Test
+# Memory - CPU
 
 - size:750x1334 
 - count:44
@@ -22,6 +22,22 @@ Launch
 |3 |54.8M  - 19% | 47.3M  - 58% | 47.3M  - 22% | 216M - 1%
 |4 |54.8M  - 20% | 48.9M  - 44% | 51.1M  - 22% | 216M - 1%
 |5 |54.8M  - 19% | 47.4M  - 49% | 47.4M  - 22% | 216M - 0%
+
+---
+
+# Memory
+
+## UIImageView -> 216.7M
+![image](https://github.com/xjh093/JHAnimatedImageView/blob/master/Memory/UIImageView_Memory.png)
+
+## KKSequenceImageView -> 51.8M
+![image](https://github.com/xjh093/JHAnimatedImageView/blob/master/Memory/KKSequenceImageView_Memory.png)
+
+## YYAnimatedImageView -> 53M
+![image](https://github.com/xjh093/JHAnimatedImageView/blob/master/Memory/YYAnimatedImageView_Memory.png)
+
+## JHAnimatedImageView -> 51.7M
+![image](https://github.com/xjh093/JHAnimatedImageView/blob/master/Memory/JHAnimatedImageView_Memory.png)
 
 ---
 
